@@ -1,0 +1,168 @@
+.payment-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.payment-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.recipient-country {
+  margin-bottom: 2rem;
+}
+
+.recipient-country select {
+  width: 100%;
+}
+
+.currency-selection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.currency-selection div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+select, input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.amount-section {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  align-items: end;
+  margin-bottom: 2rem;
+}
+
+.amount-section label {
+  grid-column: 1 / -1;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0052a3;
+}
+
+.conversion-result {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#converted-amount {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0066cc;
+}
+
+.cross-border-payment {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.currency-selection {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.recipient-info {
+  margin-bottom: 1rem;
+}
+
+.amount-input {
+  margin-bottom: 1rem;
+}
+
+.converted-amount {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.success-message {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.error-message {
+  background-color: #f2dede;
+  color: #a94442;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+select, input, button {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #337ab7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #286090;
+}
+
+.error-message,
+#risk-warning,
+#compliance-rejection,
+#suspicious-activity-warning {
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#risk-warning {
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+}
+
+#compliance-rejection {
+  background-color: #f2dede;
+  color: #a94442;
+}
+
+#suspicious-activity-warning {
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+}
