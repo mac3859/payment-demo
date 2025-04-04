@@ -1,3 +1,5 @@
+
+
 # Payment Service Test Suite
 
 This repository contains comprehensive test suites for our payment service, covering both API-level testing with Karate and end-to-end testing with Playwright.
@@ -50,7 +52,8 @@ Key test scenarios:
 npm install  # Install dependencies
 npm run test # Run the tests
 ```
+### Test Results Screenshot
 
-Test reports can be found in:
-- Karate: `target/karate-reports/`
-- Playwright: `playwright-report/`
+![Screenshot 2025-04-04 at 2 12 51 pm](https://github.com/user-attachments/assets/0926bdd8-e905-4086-9c2c-3e4e22f20664)
+
+The screenshot above shows the actual test execution results from a sample test run.
