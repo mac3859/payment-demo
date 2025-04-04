@@ -40,18 +40,15 @@ Key test scenarios:
 
 ## Running the Tests
 
-### Running Karate Tests
-
-```bash
-./mvnw test
-```
-
 ### Running Playwright Tests
 
-```bash
-npm install  # Install dependencies
-npm run test # Run the tests
-```
+1. npm run dev - starts the Vite development server for the React TypeScript application.
+2. npx playwright test - Playwright end-to-end tests in the project
+
+### Karate Tests - script only
+
+script only. Endpoints are for demo purposes only.
+ 
 ### Test Results Screenshot
 
 ![Screenshot 2025-04-04 at 2 12 51 pm](https://github.com/user-attachments/assets/0926bdd8-e905-4086-9c2c-3e4e22f20664)
